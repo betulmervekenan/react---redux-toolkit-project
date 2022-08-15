@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+.product-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Oswald', sans-serif;;
+  padding: 10px;
+  margin: 30px;
+  
+  &:hover {
+    cursor: pointer;
+  }
+
+  &--category {
+    opacity: 0.5;
+  }
+
+  &--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+  }
+
+  &--title {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    height: 50px;
+  }
+
+  &--image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  &--rate {
+    padding: 5px;
+    background: #ffc93c;
+    margin-top: 10px;
+  }
+}

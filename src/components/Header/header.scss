@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Oswald:wght@300&family=Rubik+Dirt&display=swap');
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  color: #fff;
+  background: #385170;
+
+
+  &-title {
+    font-size: 40px;
+    font-family: 'Rubik Dirt', cursive;
+    position: relative;
+  }
+
+  &-logo {
+    position: absolute;
+    top: 25px;
+    left: 400px;
+    color: #ff5722; 
+  }
+
+  &-basket--subtitle {
+    margin-right: 10px;
+  }
+
+  &-basket--icon {
+    position: relative;
+    display: flex;
+    
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
